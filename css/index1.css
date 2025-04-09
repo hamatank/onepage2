@@ -135,20 +135,20 @@ iframe {
 }
 
 
-h3{
+.list{
   display:flex;
   flex-direction: column;
   margin-top: 20px;
 }
 
 
-h3 li {
+.list li {
   border: 2px solid black;
   width: auto;
   height: auto;
   margin-top: 30px;
   font-size: 20px;
-  font-weight: 50px;
+  font-weight: 500;
   text-align: left;
   padding: 10px;
   list-style: none;
@@ -239,7 +239,7 @@ footer {
   display: flex;
   flex-direction: row;
   list-style: none;
- 
+  
 }
 
 
@@ -272,3 +272,8 @@ footer {
   padding-right: 50px;
 }
 
+iframe{ 
+  width: 1800px;
+  height: 600px;
+  border: 1px solid white;
+  }
