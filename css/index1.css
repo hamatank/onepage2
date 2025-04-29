@@ -1,6 +1,31 @@
 @import url(reset.css);
 
-h1{
+.container{
+  width: 1500px;
+  position: relative;
+  left: 11%;
+
+}
+
+.image1 .text{
+  display:inline-block;
+  font-size: 25px;
+  font-weight: 600;
+  position:relative;
+  color: rgb(201, 201, 201);
+  top: 170px;
+  left: 50px;
+}
+
+.text2{
+  font-size: 20px;
+  font-weight: 400;
+
+
+
+}
+
+nav h1{
   height: 300px; 
   margin-left: 710px;
 }
@@ -14,15 +39,15 @@ h2 {
 
 .head ul{ 
   width: 100%;
-  z-index: -100;
-  font-size: 16px;
+  z-index: 10;
+  font-size: 18px;
   font-weight: 200;
   display:flex;
   justify-content: right;
   gap: 15px;
   list-style: none;
   color: black;
-  padding: 0 50px;
+  padding: 0 80px 30px;
 } 
 
 .head2 ul{ 
@@ -30,55 +55,55 @@ h2 {
   width: 100%;
   background-color: black;
   z-index: 100;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 300;
   display:flex;
   justify-content: center;
   gap: 15px;
   list-style: none;
-  color: white;
+  color:whitesmoke;
   padding: 35px 0px;
 } 
 
 
 header ul li:nth-child(1):hover {
-  font-size: 26px;
+  color:grey;
   transition: 0.5s;
 }
 header ul li:nth-child(2):hover {
-  font-size: 26px;
+  color:grey;
   transition: 0.5s;
 }
 header ul li:nth-child(3):hover {
-  font-size: 26px;
+  color:grey;
   transition: 0.5s;
 }
 header ul li:nth-child(4):hover {
-  font-size: 26px;
+  color:grey;
   transition: 0.5s;
 }
 header ul li:nth-child(5):hover {
-  font-size: 26px;
+  color:grey;
   transition: 0.5s;
 }
 header ul li:nth-child(6):hover {
-  font-size: 26px;
+  color:grey;
   transition: 0.5s;
 }
 header ul li:nth-child(7):hover {
-  font-size: 26px;
+  color:grey;
   transition: 0.5s;
 }
 header ul li:nth-child(8):hover {
-  font-size: 26px;
+  color:grey;
   transition: 0.5s;
 }
 header ul li:nth-child(9):hover {
-  font-size: 26px;
+  color:grey;
   transition: 0.5s;
 }
 header ul li:nth-child(10):hover {
-  font-size: 26px;
+  color:grey;
   transition: 0.5s;
 }
 
@@ -89,12 +114,20 @@ header ul li:nth-child(10):hover {
     height:1200px;
     background-image: url('../image/Bentley_gangnam.jpeg'); 
     background-repeat: no-repeat; 
-    background-size: 100% 100%;
+    background-size: 100% 80%;
     background-position: center;
   } 
     
   
+.slidetext1 h1{
+  font-size:40px;
+  padding-bottom: 30px;
+}
 
+.slidetext2 h1{
+  font-size:20px;
+  padding-bottom: 15px;
+}
 
 
   .slide{
@@ -159,7 +192,7 @@ iframe {
 /* 호버카드 시작 */
 
 
-.container h5{
+.container2 h5{
   font-size: 56px;
   text-align: center;
   margin-bottom: 30px;
@@ -233,7 +266,12 @@ iframe {
 
 /* 호버카드 끝 */
 
+.textlast{
+  font-size: 50px ;
+  font-weight: 400;
 
+
+}
 
 footer {
   display: flex;
@@ -273,7 +311,9 @@ footer {
 }
 
 iframe{ 
-  width: 1800px;
+  width: 1300px;
   height: 600px;
   border: 1px solid white;
+  position: relative;
+  left: 3%;
   }
